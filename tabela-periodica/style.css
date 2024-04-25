@@ -1,0 +1,172 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: calc(100%/18);
+    height: 75px;
+    padding: 10px;
+    border-radius:3px;
+}
+
+td > p {
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+.nome-elemento {
+    font-size: 10px;
+}
+
+.peso-elemento {
+    font-size: 12px;
+}
+
+.simbolo-elemento {
+    font-size: 35px;
+}
+
+/* Legenda de cores dos elementos */
+
+.nao-metais-diatomicos {
+    background-color: rgba(255, 169, 10, 0.949);
+}
+
+.gases-nobres {
+    background-color: rgb(235, 115, 233);
+}
+
+.metais-alcalinos {
+    background-color: rgb(237, 45, 45);
+}
+
+.metais-alcalinoterrosos {
+    background-color: rgb(175, 138, 19);
+}
+
+.semimetais {
+    background-color: rgba(250, 246, 5, 0.988);
+}
+
+.nao-metais-poliatomicos {
+    background-color: rgb(27, 117, 27);
+}
+
+.metais-pos-transicao {
+    background-color: rgb(161, 84, 191);
+}
+
+.metais-de-transicao {
+    background-color: rgb(28, 199, 2);
+}
+
+.lantanideos {
+    background-color: rgb(3, 3, 245);
+}
+
+.propriedades-quimicas-desconhecidas {
+    background-color: rgb(118, 118, 118);
+}
+
+.actinideos {
+    background-color: rgb(55, 132, 247);
+}
+
+.legenda {
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+}
+
+.legenda-descricao {
+    width: 25%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.legenda-descricao div:nth-child(1) {
+    width: 45px;
+    height: inherit;
+}
+
+.legenda-descricao div:nth-child(2) {
+    width: 80%;
+}
+
+.legenda-descricao div:nth-child(2) p {
+    line-height: 0;
+    text-align: left;
+    font-size: 24px;
+}
+
+.legenda-metais-alcalinos {
+    background-color: rgb(237, 45, 45);
+}
+
+.legenda-metais-alcalinoterrosos {
+    background-color:rgb(175, 138, 19) ;
+}
+
+.legenda-metais-de-transicao {
+    background-color: rgb(28, 199, 2);
+}
+
+.legenda-metais-pos-transicao {
+    background-color: rgb(161, 84, 191);
+}
+
+.legenda-semimetais {
+    background-color: rgba(250, 246, 5, 0.988);
+}
+
+.legenda-nao-metais-poliatomicos {
+    background-color: rgba(27,117,27);
+}
+
+.legenda-nao-metais-diatomicos {
+    background-color: rgba(255, 169, 10, 0.949);
+}
+
+.legenda-gases-nobres {
+    background-color: rgba(235,115,233);
+}
+
+.legenda-lantanideos {
+    background-color: rgb(3, 3, 245);
+}
+
+.legenda-actinideos {
+    background-color: rgb(55, 132, 247);
+}
+
+.legenda-propriedades-quimicas-desconhecidas {
+    background-color: rgb(118, 117, 117);
+}
+
+.coluna-dobrada {
+    flex-grow: 1;
+    justify-content: normal;
+}
+
+.margem-esquerda {
+    margin-left: 27px;
+}
